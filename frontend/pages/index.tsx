@@ -1,20 +1,21 @@
 import type { NextPage } from "next";
 import { Box, Button, Container, Flex, Heading, SimpleGrid, Stack, Text } from "@chakra-ui/react";
 import { MediaRenderer } from "@thirdweb-dev/react";
-import { FEATURES_IMAGE_URL, HERO_IMAGE_URL } from "../const/addresses";
-import FeatureCard from "../components/FeatureCard";
+import { FEATURES_IMAGE_URL, HERO_IMAGE_URL } from "../../../Gift/frontend/const/addresses";
+import FeatureCard from "../../../Gift/frontend/components/FeatureCard";
 import Link from "next/link";
-import Events from "../components/Events";
+import Events from "../../../Gift/frontend/components/Events";
+import CallToActionWithAnnotation from "../../../Gift/frontend/components/CallToAction";
 
 const Home: NextPage = () => {
   return (
     <Container maxW={"1440px"}>
+      <CallToActionWithAnnotation />
       <Flex h={"75vh"} px={20} borderRadius={20} >
         <Flex flexDirection={"row"}>
           <Flex flexDirection={"column"} justifyContent={"center"} w={"60%"}>
             <Stack spacing={4}>
-              <Heading fontSize={"xl"}>Gift</Heading>
-              <Heading fontSize={"6xl"}>
+                   <Heading fontSize={"6xl"} id="transferBlock">
                 Send HBAR tokens with wishes to your friends and family with ease.
               </Heading>
               <Text fontSize={"xl"}>
