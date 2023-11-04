@@ -17,8 +17,8 @@ export default function Navbar() {
                         <Link href={"/transfer"}>
                             <Text mr={8}>Transfer</Text>
                         </Link>
-                        <Link href={"/claim"}>
-                            <Text mr={8}>Claim Token</Text>
+                        <Link href={"/shedule"}>
+                            <Text mr={8}>Shedule Transaction</Text>
                         </Link>
                         <Link href={`/profile/${address}`}>
                             <Text>My Account</Text>

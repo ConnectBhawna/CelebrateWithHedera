@@ -1,6 +1,6 @@
 import { Box, Card, Flex, Heading, Input, Text } from "@chakra-ui/react";
 import { useAddress, useContract, useContractRead } from "@thirdweb-dev/react";
-import { TRANSFER_CONTRACT_ADDRESS } from "../const/addresses";
+import { TRANSFER_CONTRACT_ADDRESS } from "../const/addresses.ts";
 import TokenSelection from "./TokenSelection";
 import { useState } from "react";
 import TokenBalance from "./TokenBalance";

@@ -1,5 +1,5 @@
 import { Web3Button, useContract } from "@thirdweb-dev/react";
-import { TRANSFER_CONTRACT_ADDRESS } from "../const/addresses";
+import { TRANSFER_CONTRACT_ADDRESS } from "../const/addresses.ts";
 import { ethers } from "ethers";
 import { useToast } from "@chakra-ui/react";
 
