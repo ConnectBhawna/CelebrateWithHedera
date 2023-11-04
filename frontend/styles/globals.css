@@ -1,0 +1,25 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: #7dd3fc;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+body {
+  color: #e7e8e8;
+  background: rgb(0,0,0);
+  background: linear-gradient(16deg, rgba(0,0,0,1) 0%, rgba(79,217,230,1) 78%, rgba(120,255,230,1) 100%);
+}
