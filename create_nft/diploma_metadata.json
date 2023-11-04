@@ -1,0 +1,16 @@
+{
+	"name": "Diploma",
+	"description": "Certificate of Graduation",
+	"image": "https://ipfs.io/ipfs/QmdTNJDYePd4EUUzYPuhc1GsDELjab6ypgvDQAp4visoM9?filename=diploma.jpg",
+	"properties": {
+		"university": "H State University",
+		"college": "Engineering and Applied Sciences",
+		"level": "Masters",
+		"field": "Mechanical Engineering",
+		"honors": "yes",
+		"honorsType": "Summa Cum Laude",
+		"gpa": "3.84",
+		"student": "Alice",
+		"date": "2021-03-18"
+	}
+}
