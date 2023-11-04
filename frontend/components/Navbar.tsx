@@ -10,7 +10,7 @@ export default function Navbar() {
         <Container maxW={"1440px"} py={4}>
             <Flex flexDirection={"row"} justifyContent={"space-between"} alignItems={"center"}>
                 <Link href={"/"}>
-                    <Text fontWeight={"black"}>Gift</Text>
+                    <Text fontWeight={"black"}>Celebrate With Hedera</Text>
                 </Link>
                 {address && (
                     <Flex flexDirection={"row"}>
@@ -18,7 +18,7 @@ export default function Navbar() {
                             <Text mr={8}>Transfer</Text>
                         </Link>
                         <Link href={"/shedule"}>
-                            <Text mr={8}>Shedule Transaction</Text>
+                            <Text mr={8}>Schedule Transaction</Text>
                         </Link>
                         <Link href={`/profile/${address}`}>
                             <Text>My Account</Text>

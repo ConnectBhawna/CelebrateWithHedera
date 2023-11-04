@@ -1,11 +1,11 @@
 import type { NextPage } from "next";
 import { Box, Button, Container, Flex, Heading, SimpleGrid, Stack, Text } from "@chakra-ui/react";
 import { MediaRenderer } from "@thirdweb-dev/react";
-import { FEATURES_IMAGE_URL, HERO_IMAGE_URL } from "../../../Gift/frontend/const/addresses";
-import FeatureCard from "../../../Gift/frontend/components/FeatureCard";
+import { FEATURES_IMAGE_URL, HERO_IMAGE_URL } from "../const/addresses";
+import FeatureCard from "../components/FeatureCard";
 import Link from "next/link";
-import Events from "../../../Gift/frontend/components/Events";
-import CallToActionWithAnnotation from "../../../Gift/frontend/components/CallToAction";
+import Events from "../components/Events";
+import CallToActionWithAnnotation from "../components/CallToAction";
 
 const Home: NextPage = () => {
   return (

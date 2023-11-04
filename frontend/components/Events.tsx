@@ -1,9 +1,10 @@
 import { Box, Card, Flex, Heading, Spinner, Text } from "@chakra-ui/react";
 import { useContract, useContractEvents } from "@thirdweb-dev/react";
-import { TRANSFER_CONTRACT_ADDRESS } from "../const/addresses.ts";
+import { TRANSFER_CONTRACT_ADDRESS } from "../const/addresses";
 import { ethers } from "ethers";
 
 export default function Events() {
+
     function truncateAddress(address: string) {
         return `${address.substring(0, 6)}...${address.substring(address.length - 4)}`;
     }
