@@ -1,8 +1,8 @@
 # CelebratewithHedera
 
-Gift not just tokens , Gift Happiness to share the best memories with your beloved friends , family and colleages.
+Gift not just tokens , Gift Happiness to share the best memories with your beloved friends , family and colleages. Send wishes with money on all special occasions.
 
-Send wishes with money on all special occasions.
+![hedera](https://github.com/ConnectBhawna/CelebrateWithHedera/assets/95926324/632b77f1-811b-4749-9068-ce08b3f4ba41)
 
 Hedera Contract Deployed at 0x4b079d360f9c5a2a8b3CBcF9F0B6804e56b06747
 
@@ -14,3 +14,5 @@ ERC20 Token Deployment
 ERC-721 NFT Deployment 
 
 ![image](https://github.com/kamalbuilds/CelebratewithHedera/assets/95926324/b215bf96-0c1b-454e-bf29-1d3b05f176f2)
+
+https://cdn.discordapp.com/attachments/1059846328919785613/1170585578669088778/Final_Gif_Video.gif?ex=655993c6&is=65471ec6&hm=457ba13e08b7532e4842794331c58c433f5f69701a91361ea1c3b4ca4bb7c6f0&
