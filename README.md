@@ -2,6 +2,8 @@
 
 Are you ready to elevate your celebrations to the next level? With CelebrateWithHedera, you can do just that! We've created a revolutionary platform that allows you to send your warm wishes along with digital tokens on those special occasions, transforming your gifts into unforgettable memories for your cherished friends, family, and colleagues.
 
+![](https://github.com/ConnectBhawna/CelebrateWithHedera/blob/main/pitching_video_of_app.gif)
+
 ## Key Features
 
 ### 1. Mint Special Occasions as NFTs
