@@ -12,8 +12,14 @@ Are you ready to elevate your celebrations to the next level? With CelebrateWith
 ![](https://github.com/ConnectBhawna/CelebrateWithHedera/blob/main/pitching_video_of_app.gif)
 
 
+
 ## 🛠 How we built it
 For building Frontend we use Next.js and TailwindCSS for animation. For storing data we use  Hedera protocol. For writing Smart Contact we use Solidity. 
+
+## Most Creative Use of Github 
+Our project, CelebrateWithHedera, perfectly aligns with the "Most Creative Use of GitHub" track, as it showcases innovative collaboration and development. Our team of three members collaborated seamlessly on various aspects of the code during the hackathon. Together, we created a unique platform that allows users to send HBAR along with heartfelt greeting messages and much more. Our creative use of GitHub played a pivotal role in enabling this collaborative effort, allowing us to efficiently manage, version control, and merge our code contributions. This platform is a testament to the power of creative collaboration facilitated by GitHub, demonstrating the true spirit of the "Most Creative Use of GitHub" track.
+![Screenshot from 2023-11-05 00-55-20](https://github.com/ConnectBhawna/CelebrateWithHedera/assets/81790585/6a06767c-d161-4261-9292-8a10edd5d542)
+
 
 ## 📌 Key Features
 
