@@ -1,11 +1,41 @@
+import { Client, AccountId, PrivateKey, TokenCreateTransaction, TokenSupplyType, TokenMintTransaction, TokenAssociateTransaction, TransferTransaction, AccountBalanceQuery, Hbar, TokenId, TokenType, TokenInfoQuery } from "@hashgraph/sdk";
 //Create the NFT
+
+
+async function createNFT() {
+
+  const MY_ACCOUNT_ID = "0.0.5817770"
+  const MY_PRIVATE_KEY = "3030020100300706052b8104000a04220420c4a61b99bf4ed6a923c38b66268a68873195640d7a10e59c8c2fc5ed0e21a831"
+  //Grab your Hedera testnet account ID and private key from your .env file
+  const myAccountId = MY_ACCOUNT_ID;
+  const myPrivateKey = MY_PRIVATE_KEY;
+
+  // If we weren't able to grab it, we should throw a new error
+  if (!myAccountId || !myPrivateKey) {
+    throw new Error(
+      "Environment variables MY_ACCOUNT_ID and MY_PRIVATE_KEY must be present"
+    );
+  }
+  
+  //Create your Hedera Testnet client
+  const client = Client.forTestnet();
+
+  //Set your account as the client's operator
+  client.setOperator(myAccountId, myPrivateKey);
+
+  //Set the default maximum transaction fee (in Hbar)
+  client.setDefaultMaxTransactionFee(new Hbar(100));
+
+  //Set the maximum payment for queries (in Hbar)
+  client.setMaxQueryPayment(new Hbar(50));
+
 const nftCreate = await new TokenCreateTransaction()
 	.setTokenName("diploma")
 	.setTokenSymbol("GRAD")
 	.setTokenType(TokenType.NonFungibleUnique)
 	.setDecimals(0)
 	.setInitialSupply(0)
-	.setTreasuryAccountId(treasuryId)
+	.setTreasuryAccountId(myAccountId)
 	.setSupplyType(TokenSupplyType.Finite)
 	.setMaxSupply(250)
 	.setSupplyKey(supplyKey)
@@ -136,3 +166,7 @@ console.log(`- Treasury balance: ${balanceCheckTx.tokens._map.get(tokenId.toStri
 // Check the balance of Alice's account after the transfer
 var balanceCheckTx = await new AccountBalanceQuery().setAccountId(aliceId).execute(client);
 console.log(`- Alice's balance: ${balanceCheckTx.tokens._map.get(tokenId.toString())} NFTs of ID ${tokenId}`);
+
+}
+
+createNFT();
