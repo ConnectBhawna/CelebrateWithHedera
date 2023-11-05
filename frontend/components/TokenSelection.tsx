@@ -1,5 +1,6 @@
 import { Box, Card, Spinner, Text } from "@chakra-ui/react";
 import { useContract, useContractMetadata } from "@thirdweb-dev/react";
+import React from "react";
 
 type Props = {
     tokenAddress: string;

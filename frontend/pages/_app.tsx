@@ -4,6 +4,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { AvalancheFuji , HederaLocalnet , HederaTestnet} from "@thirdweb-dev/chains";
+import React from "react";
 
 function MyApp({ Component, pageProps }: AppProps) {
 

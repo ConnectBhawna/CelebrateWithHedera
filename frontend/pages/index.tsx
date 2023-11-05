@@ -7,6 +7,7 @@ import Link from "next/link";
 import Events from "../components/Events";
 import CallToActionWithAnnotation from "../components/CallToAction";
 import { createFungibleToken } from "../utils/createFungibleToken";
+import React from "react";
 
 const Home: NextPage = () => {
 

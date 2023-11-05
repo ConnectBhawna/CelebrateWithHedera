@@ -12,6 +12,7 @@ import {
   Highlight,
 } from "@chakra-ui/react"
 import { Link as ScrollLink } from 'react-scroll';
+import React from "react";
 
 export default function CallToActionWithAnnotation() {
   return (
