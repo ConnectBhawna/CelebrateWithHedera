@@ -1,10 +1,21 @@
 # CelebrateWithHedera: The Ultimate Way to Make Every Occasion Special
 
+## 💡 Inspiration
+Have you ever found yourself grappling with the challenge of picking the perfect gifts for your friends during festive seasons like Diwali and Christmas? Sometimes, it feels like your creative thinking hits a roadblock. And if you've ever chosen a gift that didn't quite hit the mark, well, you're not alone in that experience. If you've been in this situation, know that we share your dilemma.
+
+We're working on resolving this issue within the Hedera Ecosystem, where currently, there isn't a platform for sending Hedera Tokens with greetings. That's why we've developed an innovative platform that enables you to convey your heartfelt wishes alongside digital tokens on those special occasions. This transforms your gifts into lasting memories for your beloved friends, family, and colleagues.
+
+
+## ⚙ What it does
 Are you ready to elevate your celebrations to the next level? With CelebrateWithHedera, you can do just that! We've created a revolutionary platform that allows you to send your warm wishes along with digital tokens on those special occasions, transforming your gifts into unforgettable memories for your cherished friends, family, and colleagues.
 
 ![](https://github.com/ConnectBhawna/CelebrateWithHedera/blob/main/pitching_video_of_app.gif)
 
-## Key Features
+
+## 🛠 How we built it
+For building Frontend we use Next.js and TailwindCSS for animation. For storing data we use  Hedera protocol. For writing Smart Contact we use Solidity. 
+
+## 📌 Key Features
 
 ### 1. Mint Special Occasions as NFTs
 
@@ -49,3 +60,22 @@ Don't miss the opportunity to create memorable celebrations with your loved ones
 ![image](https://github.com/kamalbuilds/CelebratewithHedera/assets/95926324/b215bf96-0c1b-454e-bf29-1d3b05f176f2)
 
 Elevate your celebrations, create lasting memories, and make every occasion truly special with CelebrateWithHedera!
+
+## 💪Challenges we ran into
+- It is our first time building a complete Dapp on Hedera Blockchain as well as working with Solidity and Smart Contract writing at first we are unable to understand the working on the same and fix some issues regarding deployment of the Smart COntract. But we are able to do it after reading documentation or searching more about it.
+
+- Thinking about the project as per the perspective of startup is initially hard for us, but after talking to real user we will be able to do that.
+
+It was hard to make a fully responsive and beautiful UI of CelebrateWithHedera. But we are able to do it because of teamwork.
+
+
+## 📌 Accomplishments that we're proud of
+- Well, we built a whole social platform that solves a real world problem in 16 hours!! (We all slept less than 1 hour) That's the biggest achievement of this hackathon.
+- Able to build the platform on Hedera Blockchain that really solves the issue.
+
+## 📚 What we learned
+- Learned more about Hedera Blockchain and writing the revenue model for the platform . Learned a lot more about Solidity, Hedera Blockchain and team Building.
+
+
+
+
