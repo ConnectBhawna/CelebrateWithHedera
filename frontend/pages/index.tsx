@@ -6,8 +6,12 @@ import FeatureCard from "../components/FeatureCard";
 import Link from "next/link";
 import Events from "../components/Events";
 import CallToActionWithAnnotation from "../components/CallToAction";
+import { createFungibleToken } from "../utils/createFungibleToken";
 
 const Home: NextPage = () => {
+
+  // const a= createFungibleToken();
+  // console.log(a);
   return (
     <Container maxW={"1440px"}>
       <CallToActionWithAnnotation />
